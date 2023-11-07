@@ -11,15 +11,17 @@ body {
 main {
   display: block;
   /* Forces elements to the next line if they don't fit */
-  /* flex-wrap: wrap; */
+  /* I turned on flex-wrap:wrap to see if it would change my my website, it didn't */
+  flex-wrap: wrap;
   margin-top: 2%;
 }
 
 .main section {
   display: block;
   /* Forces elements to the next line if they don't fit */
-  /* flex-wrap: wrap; */
-  /* justify-content: space-between; */
+  /* I turned on flex-wrap:wrap and justify-con.. to see if it would change my code, it didn't  */
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding: 60px;
   background: #13293d;
   color: #fff;
@@ -45,5 +47,5 @@ main {
 }
 
 .large {
-  width: 125%;
+  width: 25%;
 }
