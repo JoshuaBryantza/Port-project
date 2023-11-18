@@ -1,51 +1,113 @@
-* {
-  box-sizing: border-box;
-}
+  /* * {
+    box-sizing: border-box;
+  } */
 
-body {
+  /* body {
   font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   margin: 0;
-  background-color: #23486a;
-}
+  background-color: #bcc3be;
+  padding: 200px;
+} */
 
-main {
+  /* main {
   display: block;
   /* Forces elements to the next line if they don't fit */
-  /* I turned on flex-wrap:wrap to see if it would change my my website, it didn't */
-  flex-wrap: wrap;
-  margin-top: 2%;
+  /* I turned on flex-wrap:wrap to see if it would change my my website, it didn't 
+flex-wrap: wrap;
+margin-top: 2%;
 }
 
-.main section {
-  display: block;
+*/
+  /* .main section {
+  display: inline; */
   /* Forces elements to the next line if they don't fit */
   /* I turned on flex-wrap:wrap and justify-con.. to see if it would change my code, it didn't  */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap;
   justify-content: space-between;
   padding: 60px;
   background: #13293d;
   color: #fff;
-}
+} */
 
-.card {
-  flex: 1 0 0;
+  header {
+    border-bottom: 4mm ridge rgba(255, 106, 0, .9);
+  }
+
+  /* #header-img {
+  border: 1px solid rgb(255, 106, 0));
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+  display: inline;
+} */
+
+  /* section {
+  height: 600px;
+  border-left: solid rgb(255, 106, 0);
+} */
+
+  /* .card {
+  width: 85px;
+  flex: 2 0 0;
   padding: 10px;
   text-align: center;
-  border-style: solid;
-  border-width: 1px;
-}
+  border-style: solid; 
+   border-width: 1px;
 
-.card header {
+} */
+
+  /* .card header {
   padding: 20px;
   background: #13293d;
   color: #fff;
+} */
+
+  /* h1 {
+  font-size: 50px;
+  display: inline;
 }
 
-.card img {
-  width: 100%;
-  min-width: 400px;
+h2,
+h3 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-decoration: underline rgb(255, 106, 0);
 }
 
-.large {
-  width: 25%;
+ul {
+  text-align: right;
 }
+
+li {
+  display: inline;
+  margin: 25px;
+
+}
+
+img {
+  border: 5px solid rgb(255, 106, 0);
+  border-radius: 20px;
+  padding: 5px;
+  width: 400px;
+}
+
+#about-me {
+  width: 200px;
+} */
+
+  /* p {
+  display: block;
+} */
+
+  header {
+    border: 20px solid orange;
+  
+  }
+
+  header img {
+    width: 200px;
+  }
